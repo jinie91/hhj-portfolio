@@ -15,15 +15,6 @@ $(document).ready(function(){
         $(this).toggleClass('active'),
         $('.m_gnb').toggleClass('block');
       });
-   
-    //   $('.btn .active').on('click', function(e){
-    //     e.preventDefault();
-    //     $('.m_gnb').stop().animate({
-    //         left: '-100%'
-    //     })
-    // })
-
-
 
     $('.room_pic').slick({
         arrows : true, //화살표
@@ -60,18 +51,7 @@ $(document).ready(function(){
             backgroundColor:'#fff',
             color:'#000'
         });
-
     })//click .tit>li
-    
-
-
-
-
-
-
-
-
-
 
 }); //opening
 

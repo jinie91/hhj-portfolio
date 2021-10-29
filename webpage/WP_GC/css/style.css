@@ -19,6 +19,8 @@ img{vertical-align: top;}
     height: 120px;
     position: relative;
     background-color: #ebebeb;
+    position: fixed;
+    z-index: 100;
 }
 #header .headerin .logo {
     position: absolute;
@@ -36,31 +38,61 @@ img{vertical-align: top;}
   left: 20px;
 }
 .m_header .m_util {
-  width: 320px;
+  width: 50%;
   height: 100vh;
   background-color: #fff;
   z-index: 11;
   position: fixed;
-  position: absolute;
+  /* position: absolute; */
   top: 120px;
-  left: -100%;
+  left: 0%;
+  opacity: 0;
 }
-.m_header .m_util li {
+/* .m_header .m_util li {
   text-align: left;
-  width: 320px;
+  width: 100%;
   height: 30px;
-  font-size: 25px;
-  padding: 30px 30px 60px 30px;
+  padding: 10px 20px 30px 20px;
   font-weight: bold;
   border-bottom: 1px solid #eee;
   box-sizing: border-box;
+  font-size: 16px;
+} */  
+.m_util li {
+}
+.m_util li p {
+  font-weight: bold;
+  font-size: 16px;
+  height: 20px;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  padding: 10px 20px;
 }
 .m_header .m_util>li .sub {
   display: none;
+  padding: 5px 30px;
+  line-height: 25px;
 }
-.m_header .m_util>li>.on .sub {
+.m_header .m_util>li .sub li {
+}
+.m_util .cls {
+  position: absolute;
+  left: 50%;
+  bottom: 150px;
+  transform: translateX(-50%);
+  width: 70px;
+  height: 30px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* .m_header .m_util>li>.on .sub {
   display: block;
-}
+} */
 .m_header .m_gnb {
   position: absolute;
   bottom: 10px;
@@ -548,7 +580,7 @@ img{vertical-align: top;}
   }
 }
 
-@media all and (min-width: 780px) {
+@media all and (min-width: 768px) {
     .w_bagin {
         width: 700px;
         /* margin: 60px auto; */
@@ -817,10 +849,11 @@ img{vertical-align: top;}
 
 @media all and (min-width: 1024px) {
   #wrap {
-    max-width: 1900px;
+    max-width: 1920px;
   }
   #header {
     height: 140px;
+    position: relative;
     /* position: fixed;
     z-index: 150; */
   }
@@ -833,6 +866,9 @@ img{vertical-align: top;}
     transform: translateX(-58%);
     text-align: center;
     z-index: 10;
+  }
+  .m_header .m_util {
+    display: none;
   }
   .w_util {
     width: 1024px;

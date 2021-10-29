@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/main.js"></script>
+
 </head>
 <body>
 
@@ -26,88 +30,78 @@
         <nav class="m_header">
           <ul class="m_util">
             <li>
-              <a href="#">GUCCI STORY</a>
+              <p>GUCCI STORY</p>
               <ul class="sub">
-              <li><a href="#">런웨이</a></li>
-              <li><a href="#">캠페인</a></li>
-              <li><a href="#">패션코드</a></li>
-              <li><a href="#">셀레브리디</a></li>
+                <li><a href="#">런웨이</a></li>
+                <li><a href="#">캠페인</a></li>
+                <li><a href="#">패션코드</a></li>
+                <li><a href="#">셀레브리티</a></li>
               </ul>
-          </li>
-          <li class="on">
-              <a href="#">WHAT'S NEW</a>
-              <ul class="sub">
-              <li><a href="#">GG멀티컬러</a></li>
-              <li><a href="#">할리우드 포베어</a></li>
-              <li><a href="#">리조트 컬렉션</a></li>
-              <li><a href="#">구찌 링그 투 러브</a></li>
-              <li><a href="#">구찌 다이애나</a></li>
-              <li><a href="#">구찌 배스킷</a></li>
-              </ul>
-          </li>
-          <li>
-              <a href="#">MAN</a>
-              <ul class="sub">
-              <li><a href="#">가방</a></li>
-              <li><a href="#">지갑</a></li>
-              <li><a href="#">패션소품</a></li>
-              <li><a href="#">슈즈</a></li>
-              </ul>
-          </li>
-          <li>
-              <a href="#">GUCCI STORY</a>
-              <ul class="sub">
-              <li><a href="#">런웨이</a></li>
-              <li><a href="#">캠페인</a></li>
-              <li><a href="#">패션코드</a></li>
-              <li><a href="#">셀레브리디</a></li>
-              </ul>
-          </li>
-          <li>
-              <a href="#">WOMAN</a>
-              <ul class="sub">
-              <li><a href="#">가방</a></li>
-              <li><a href="#">지갑</a></li>
-              <li><a href="#">패션소품</a></li>
-              <li><a href="#">슈즈</a></li>
-              </ul>
-          </li>
-          <li>
-              <a href="#">RTW</a>
-              <ul class="sub">
-              <li><a href="#">새로운 룩</a></li>
-              <li><a href="#">드레스</a></li>
-              <li><a href="#">자켓</a></li>
-              <li><a href="#">아우터</a></li>
-              </ul>
-          </li>
-          <li>
-              <a href="#">ACC</a>
-              <ul class="sub">
-              <li><a href="#">코스메틱</a></li>
-              <li><a href="#">선글라스</a></li>
-              <li><a href="#">향수</a></li>
-              <li><a href="#">시계</a></li>
-              </ul>
-          </li>
-          <li>
-              <a href="#">DECO</a>
-              <ul class="sub">
-              <li><a href="#">인테리어</a></li>
-              <li><a href="#">텍스타일</a></li>
-              <li><a href="#">벽지</a></li>
-              <li><a href="#">가구</a></li>
-              </ul>
-          </li>
-        </ul><!--m_util-->  
+            </li>
+            <li>
+                <p>WHAT'S NEW</p>
+                <ul class="sub">
+                    <li><a href="#">GG멀티컬러</a></li>
+                    <li><a href="#">할리우드 포베어</a></li>
+                    <li><a href="#">리조트 컬렉션</a></li>
+                    <li><a href="#">구찌 링그 투 러브</a></li>
+                    <li><a href="#">구찌 다이애나</a></li>
+                    <li><a href="#">구찌 배스킷</a></li>
+                </ul>
+            </li>
+            <li>
+                <p>MAN</p>
+                <ul class="sub">
+                    <li><a href="#">가방</a></li>
+                    <li><a href="#">지갑</a></li>
+                    <li><a href="#">패션소품</a></li>
+                    <li><a href="#">슈즈</a></li>
+                </ul>
+            </li>
+            <li>
+                <p>WOMAN</p>
+                <ul class="sub">
+                    <li><a href="#">가방</a></li>
+                    <li><a href="#">지갑</a></li>
+                    <li><a href="#">패션소품</a></li>
+                    <li><a href="#">슈즈</a></li>
+                </ul>
+            </li>
+            <li>
+                <p>RTW</p>
+                <ul class="sub">
+                    <li><a href="#">새로운 룩</a></li>
+                    <li><a href="#">드레스</a></li>
+                    <li><a href="#">자켓</a></li>
+                    <li><a href="#">아우터</a></li>
+                </ul>
+            </li>
+            <li>
+                <p>ACC</p>
+                <ul class="sub">
+                    <li><a href="#">코스메틱</a></li>
+                    <li><a href="#">선글라스</a></li>
+                    <li><a href="#">향수</a></li>
+                    <li><a href="#">시계</a></li>
+                </ul>
+            </li>
+            <li>
+                <p>DECO</p>
+                <ul class="sub">
+                    <li><a href="#">인테리어</a></li>
+                    <li><a href="#">텍스타일</a></li>
+                    <li><a href="#">벽지</a></li>
+                    <li><a href="#">가구</a></li>
+                </ul>
+            </li>
+            <div class="cls">
+                CLOSE
+            </div>
+            </ul><!--m_util-->  
             <ul class="m_gnb clear">
                 <li><a href="#"><img src="img/ico_join.png" alt=""></a></li>
                 <li><a href="#"><img src="img/ico_cart.png" alt=""></a></li>
                 <li><a href="#"><img src="img/ico_search.png" alt=""></a></li>
-                <!-- <li><a href="#"><span class="material-icons">person</span></a></li>
-                <li><a href="#"><span class="material-icons">shopping_basket</span></a></li>
-                <li><a href="#"><span class="material-icons">search</span></a></li>
-            -->
             </ul><!--m_gnb-->
         </nav><!--m_header-->
         <nav class="w_header">
@@ -117,7 +111,7 @@
                         <li><a href="#">런웨이</a></li>
                         <li><a href="#">캠페인</a></li>
                         <li><a href="#">패션코드</a></li>
-                        <li><a href="#">셀레브리디</a></li>
+                        <li><a href="#">셀레브리티</a></li>
                     </ul><!--w_d2-->
                 </li><!--w_d1-->
                 <li class="w_d1"><a href="#">WHAT'S NEW</a>
@@ -215,7 +209,6 @@
 
 
     <section class="m_bag">
-        
         <div class="m_bagin">
             <div class="mg_left">
                 <h2><a href="#">오버추어<br>
@@ -238,13 +231,6 @@
                 </div><!--mg_bottom-->
                 <div class="l_btn"><img src="immg/left_gr.png" alt=""></div>
                 <div class="r_btn"><img src="immg/right_gr.png" alt=""></div>
-                <!-- <div class="mg_bottom_n clear">
-                    <li class="l_btn"><img src="immg/left_gr.png" alt=""></li>
-                    <li><img src="immg/m_bag2.jpg" alt="" class="mb_1"></li>
-                    <li><img src="immg/m_bag3.jpg" alt="" class="mb_2"></li>
-                    <li><img src="immg/m_bag4.jpg" alt="" class="mb_3 add_pic"></li>
-                    <li class="r_btn"><img src="immg/right_gr.png" alt=""></li>
-                </div>mg_bottom -->
         </div><!--mg_change-->
         </div><!--m_bagin-->
     </section><!--m_bag-->
