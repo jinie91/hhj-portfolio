@@ -63,14 +63,14 @@ $('.cont_in .pic').slick({
             breakpoint: 780, //화면 사이즈 960px
             settings: {
                 //위에 옵션이 디폴트 , 여기에 추가하면 그걸로 변경
-                slidesToShow:1
+                slidesToShow:4
             } 
         },
         { 
             breakpoint: 460, //화면 사이즈 768px
             settings: {	
                 //위에 옵션이 디폴트 , 여기에 추가하면 그걸로 변경
-                slidesToShow:4
+                slidesToShow:1
             } 
         }
     ]
