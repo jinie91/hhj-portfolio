@@ -1,0 +1,424 @@
+* {margin: 0; padding: 0;}
+a {color: inherit; text-decoration: none;}
+ul li {list-style: none;}
+li {list-style: none;}
+
+@font-face {
+    src:url(../font/NanumMyeongjoBold.ttf);
+    font-family: "/NanumMyeongjo";
+}
+#wrap section {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}   
+.page1, .page2, .page4, .page6, .page9 {
+    background: url(../img/bg_2.jpg) no-repeat center center / cover;
+}
+.page3, .page5, .page7 {
+    background: url(../img/bg.jpg) no-repeat center center / cover;
+}
+.page1 {
+    position: relative;
+}
+.page1 .top {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    text-align: right;
+
+}
+.page1 .bottom {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    font-size: 120px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.page2 {
+    position: relative;
+    width: 100%;
+}
+.page2_in {
+    position: absolute;
+    top: 20%;
+}
+.page2>div {
+    display: flex;
+    width: 100%;
+}
+.page2 .imoji {
+    width: 200px;
+    margin-left: 30px;
+}
+.page2 .imoji img {
+    width: 100%;
+}
+.page2 .about_l {
+    width: 50%;
+    position: absolute;
+    left: 30%;
+    transform: translateY(15%);
+}
+.page2 .about_r {
+    width: 50%;
+    position: absolute;
+    right: 0%;
+}
+.txt p:last-child {
+    padding-bottom: 20px;
+}
+
+.page2 .txt_l {
+    display: flex;
+    padding-top: 50px;
+}
+.page2 .txt_l .tit {
+    font-weight: bold;
+}
+.page2 .txt_l .txt {
+    padding-left: 20px;
+}
+.page2 .r_tin {
+    display: flex;
+}
+.page2 .r_cin {
+    display: flex;
+}
+.page2 .r_bin {
+    display: flex;
+}
+
+.page2 h2 {
+    padding-bottom: 20px;
+}
+.page2 .txt {
+    padding-left: 20px;
+}
+.page2 p {
+    line-height: 30px;
+}
+.page2 .r_b .txt li {
+    line-height: 30px;
+}
+
+
+.r_b {
+    position: relative;
+}
+.r_b .pgrs_bar {
+    position: relative;
+    width: 230px;
+    height: 16px;
+    margin: 11px auto;
+    margin-left: 20px;
+    top: -4px;
+    border: 1px solid crimson;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.bar {
+    background-color: crimson;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 20px;
+  }
+.rate {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    bottom: 0;
+    font-size: 1.2em;
+    color:  crimson;
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+
+.odd {
+    position: relative;
+    width: 100%;
+}
+.odd .pf_in {
+    width: calc(100% - 100px);
+    margin: 0 auto;
+
+}
+.odd .mook_up {
+    position: absolute;
+    top: 50%;
+    /* left: 15%; */
+    transform: translateY(-45%);
+    width: 38%;
+    left: 20%;
+
+}
+.odd .mook_up img {
+    width: 100%;
+}
+.odd .txt {
+    position: absolute;
+    top: 55%;
+    transform: translateY(-59%);
+    right: 23%;
+}
+.odd .txt .txt_t h3 {
+    padding-bottom: 30px;
+    font-size: 26px;
+    font-style: italic;
+}
+.odd .txt .txt_t h1 {
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.odd .txt .txt_t h5 {
+    font-size: 20px;
+}
+.odd .txt .txt_c {
+    padding-top: 50px;
+    line-height: 35px;
+    font-size: 20px;
+}
+.odd .txt .txt_c {
+    display: flex;
+}
+.odd .txt .txt_cl {
+    font-weight: bold;
+}
+.odd .txt .txt_cr {
+    padding-left: 30px;
+}
+.odd .txt .txt_btn {
+    padding-top: 70px;
+    display: flex;
+}
+.odd .txt .txt_btn a { 
+    display: block;
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+    font-weight: bold;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    border-radius: 20px;
+}
+.odd .txt .txt_btn .btn_r {
+    margin-left: 20px;
+} 
+
+
+
+.even {
+    position: relative;
+    width: 100%;
+}
+.even .pf_in {
+    width: calc(100% - 100px);
+    margin: 0 auto;
+
+}
+.even .mook_up {
+    position: absolute;
+    top: 50%;
+    /* left: 15%; */
+    transform: translateY(-50%);
+    width: 38%;
+    right: 20%;
+
+}
+.even .mook_up img {
+    width: 100%;
+}
+.even .txt {
+    position: absolute;
+    top: 55%;
+    transform: translateY(-59%);
+    left: 23%;
+}
+.even .txt .txt_t h3 {
+    padding-bottom: 30px;
+    font-size: 26px;
+    font-style: italic;
+}
+.even .txt .txt_t h1 {
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.even .txt .txt_t h5 {
+    font-size: 20px;
+}
+.even .txt .txt_c {
+    padding-top: 50px;
+    line-height: 35px;
+    font-size: 20px;
+}
+.even .txt .txt_c {
+    display: flex;
+}
+.even .txt .txt_cl {
+    font-weight: bold;
+}
+.even .txt .txt_cr {
+    padding-left: 30px;
+}
+.even .txt .txt_btn {
+    padding-top: 70px;
+    display: flex;
+}
+.even .txt .txt_btn a { 
+    display: block;
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+    font-weight: bold;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    border-radius: 20px;
+}
+.even .txt .txt_btn .btn_r {
+    margin-left: 20px;
+} 
+
+.page8 {
+    position: relative;
+}
+.page8 .atwk_in {
+    margin: 0 auto;
+}
+.page8 .atwk_in h2 {
+    font-size: 35px;
+    text-align: center;
+    font-style: italic;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.page8 .atwk_in .atwk_pic {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.page8 .atwk_in .box {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.page8 .atwk_in .box1 {
+    width: 300px;
+    height: 300px;
+    background-color: #eee;
+    margin-right: 10px;
+}
+.page8 .atwk_in .box1:last-child {
+    margin-right: 0;
+}
+
+
+.page9 {
+    position: relative;
+}
+.page9 .card_in {
+    margin: 0 auto;
+}
+.page9 .card_in h2 {
+    font-size: 35px;
+    text-align: center;
+    font-style: italic;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.page9 .card_in .card_pic {
+    position: absolute;
+    bottom: 38%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 450px;
+    height: 260px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-sizing: 10px 10px 10px rgba(0,0,0,0.5);
+    /* font-family: 'Gowun Batang', serif; */
+    font-family: "/NanumMyeongjo";
+}
+.page9 .card_in .pic {
+    width: 150px;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+.page9 .card_in .pic img {
+    width: 100%;
+}
+.page9 .card_in .txt_t {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px 25px 0 0;
+    line-height: 20px;
+    font-weight: bold;
+}
+.page9 .card_in .txt_t p {
+    text-align: right;
+    font-weight: bold;
+}
+.page9 .card_in .txt_b {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+.page9 .card_in .txt_b>p {
+    padding-bottom: 20px;
+}
+.page9 .card_in .txt_b .name {
+    font-weight: bold;
+    font-size: 20px;
+}
+.page9 .card_in .txt_bin {
+    display: flex;
+}
+.page9 .card_in .txt_bin .b_l p {
+    line-height: 25px;
+    text-align: center;
+}
+.page9 .card_in .txt_bin .b_r  p{
+    line-height: 25px;
+    padding-left: 15px;
+}
+
+.page9 .btn {
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #000;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+}
+
+
+
+
+.page9 .footer {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
