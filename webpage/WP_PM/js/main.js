@@ -54,6 +54,10 @@ $('.cont_in .pic').slick({
     //         slidesToScroll: 1
     //     }}
     // ]
+
+
+
+
     responsive: [ // 반응형 웹 구현 옵션
         {  
             breakpoint: 780, //화면 사이즈 960px

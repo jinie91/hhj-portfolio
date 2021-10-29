@@ -78,7 +78,7 @@ img{vertical-align: top;}
 .m_util .cls {
   position: absolute;
   left: 50%;
-  bottom: 150px;
+  bottom: 25%;
   transform: translateX(-50%);
   width: 70px;
   height: 30px;
@@ -110,6 +110,7 @@ img{vertical-align: top;}
   display: none;
 }
 .mainV video {
+  padding-top: 120px;
   width: 100%;
   height: auto;
 }
@@ -912,6 +913,11 @@ img{vertical-align: top;}
     height: 20px;
     color: #fff;
   }
+
+  .mainV video {
+    padding-top: 0;
+  }
+
   .w_bag {
     width: 1024px;
     margin: 0 auto;
