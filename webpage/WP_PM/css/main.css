@@ -412,7 +412,7 @@ width: 100%;
     padding-top:0;
 }
 
-@media all and (min-width: 780px) {
+@media all and (min-width: 768px) {
 /* .pop .pop1 {width: 10%;} */
 .txt_dkr {
   width: 50%;

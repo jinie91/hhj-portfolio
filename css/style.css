@@ -3,10 +3,10 @@ a {color: inherit; text-decoration: none;}
 ul li {list-style: none;}
 li {list-style: none;}
 
-@font-face {
+/* @font-face {
     src:url(../font/NanumMyeongjoBold.ttf);
     font-family: "/NanumMyeongjo";
-}
+} */
 #wrap section {
     width: 100%;
     height: 100vh;
@@ -138,13 +138,6 @@ li {list-style: none;}
     line-height: 30px;
 }
 
-
-
-
-
-
-
-
 .odd {
     position: relative;
     width: 100%;
@@ -216,8 +209,6 @@ li {list-style: none;}
 .odd .txt .txt_btn .btn_r {
     margin-left: 20px;
 } 
-
-
 
 .even {
     position: relative;
@@ -326,7 +317,6 @@ li {list-style: none;}
     margin-right: 0;
 }
 
-
 .page9 {
     position: relative;
 }
@@ -399,7 +389,6 @@ li {list-style: none;}
     line-height: 25px;
     padding-left: 15px;
 }
-
 .page9 .btn {
     position: absolute;
     bottom: 5%;
@@ -412,10 +401,6 @@ li {list-style: none;}
     border-radius: 5px;
     color: #fff;
 }
-
-
-
-
 .page9 .footer {
     position: absolute;
     bottom: 15%;
