@@ -317,10 +317,18 @@ li {list-style: none;}
 .page8 .atwk_in .box1:last-child {
     margin-right: 0;
 }
-.page8 .atwk_in .box_in .pic {
+.page8 .atwk_in .box_in .pic1{
     width: 100%;
     height: auto;
-    transition: all 5s;
+}
+.page8 .atwk_in .box_in .pic1 {
+    transition: all 10s;
+} 
+.page8 .atwk_in .box_in .pic2 {
+    transition: all 15s;
+} 
+.page8 .atwk_in .box_in .pic3 {
+    transition: all 20s;
 } 
 .page8 .atwk_in .box_in .pic img {
     /* overflow: scroll; */
