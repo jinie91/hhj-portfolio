@@ -307,15 +307,44 @@ li {list-style: none;}
     display: flex;
     flex-flow: row nowrap;
 }
-.page8 .atwk_in .box1 {
+.page8 .atwk_in .box_in {
     width: 300px;
     height: 300px;
     background-color: #eee;
     margin-right: 10px;
+    overflow: hidden;
 }
 .page8 .atwk_in .box1:last-child {
     margin-right: 0;
 }
+.page8 .atwk_in .box_in .pic {
+    width: 100%;
+    height: auto;
+    transition: all 5s;
+} 
+.page8 .atwk_in .box_in .pic img {
+    /* overflow: scroll; */
+    width: 100%;
+    height: 100%;
+}
+.page8 .atwk_in .box1 .pic:hover {
+    transform: translateY(-61%);
+}
+.page8 .atwk_in .box2 .pic:hover {
+    transform: translateY(-83%);
+}
+.page8 .atwk_in .box3 .pic:hover {
+    transform: translateY(-85%);
+}
+
+
+
+
+
+
+
+
+
 
 .page9 {
     position: relative;
