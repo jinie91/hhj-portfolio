@@ -3,10 +3,6 @@ a {color: inherit; text-decoration: none;}
 ul li {list-style: none;}
 li {list-style: none;}
 
-/* @font-face {
-    src:url(../font/NanumMyeongjoBold.ttf);
-    font-family: "/NanumMyeongjo";
-} */
 #wrap section {
     width: 100%;
     height: 100vh;
@@ -32,7 +28,7 @@ li {list-style: none;}
     position: absolute;
     bottom: 5%;
     left: 5%;
-    font-size: 120px;
+    font-size: 90px;
     font-style: italic;
     font-weight: bold;
 }
@@ -51,7 +47,7 @@ li {list-style: none;}
 }
 .page2 .imoji {
     width: 200px;
-    margin-left: 30px;
+    margin-left: 3px;
 }
 .page2 .imoji img {
     width: 100%;
@@ -59,13 +55,14 @@ li {list-style: none;}
 .page2 .about_l {
     width: 50%;
     position: absolute;
-    left: 30%;
-    transform: translateY(15%);
+    left: 23%;
+    transform: translateY(-3%);
 }
 .page2 .about_r {
     width: 50%;
     position: absolute;
     right: 0%;
+    transform: translateY(-5%);
 }
 .txt p:last-child {
     padding-bottom: 20px;
@@ -92,16 +89,18 @@ li {list-style: none;}
 }
 
 .page2 h2 {
-    padding-bottom: 20px;
+    padding-bottom: 5px;
+    font-size: 16px;
 }
 .page2 .txt {
     padding-left: 20px;
+    font-size: 14px;
 }
 .page2 p {
-    line-height: 30px;
+    line-height: 22px;
 }
 .page2 .r_b .txt li {
-    line-height: 30px;
+    line-height: 20px;
 }
 
 
@@ -111,8 +110,8 @@ li {list-style: none;}
 .r_b .pgrs_bar {
     position: relative;
     width: 230px;
-    height: 16px;
-    margin: 11px auto;
+    height: 10px;
+    margin: 10px auto;
     margin-left: 20px;
     top: -4px;
     border: 1px solid crimson;
@@ -153,7 +152,7 @@ li {list-style: none;}
     /* left: 15%; */
     transform: translateY(-45%);
     width: 38%;
-    left: 20%;
+    left: 15%;
 
 }
 .odd .mook_up img {
@@ -162,25 +161,25 @@ li {list-style: none;}
 .odd .txt {
     position: absolute;
     top: 55%;
-    transform: translateY(-59%);
-    right: 23%;
+    transform: translateY(-63%);
+    right: 20%;
 }
 .odd .txt .txt_t h3 {
-    padding-bottom: 30px;
-    font-size: 26px;
+    padding-bottom: 15px;
+    font-size: 24px;
     font-style: italic;
 }
 .odd .txt .txt_t h1 {
-    padding-bottom: 10px;
-    font-size: 30px;
+    /* padding-bottom: 10px; */
+    font-size: 28px;
 }
 .odd .txt .txt_t h5 {
-    font-size: 20px;
+    font-size: 18px;
 }
 .odd .txt .txt_c {
-    padding-top: 50px;
+    padding-top: 40px;
     line-height: 35px;
-    font-size: 20px;
+    font-size: 18px;
 }
 .odd .txt .txt_c {
     display: flex;
@@ -192,7 +191,7 @@ li {list-style: none;}
     padding-left: 30px;
 }
 .odd .txt .txt_btn {
-    padding-top: 70px;
+    padding-top: 40px;
     display: flex;
 }
 .odd .txt .txt_btn a { 
@@ -225,7 +224,7 @@ li {list-style: none;}
     /* left: 15%; */
     transform: translateY(-50%);
     width: 38%;
-    right: 20%;
+    right: 15%;
 
 }
 .even .mook_up img {
@@ -235,24 +234,24 @@ li {list-style: none;}
     position: absolute;
     top: 55%;
     transform: translateY(-59%);
-    left: 23%;
+    left: 20%;
 }
 .even .txt .txt_t h3 {
-    padding-bottom: 30px;
-    font-size: 26px;
+    padding-bottom: 15px;
+    font-size: 24px;
     font-style: italic;
 }
 .even .txt .txt_t h1 {
-    padding-bottom: 10px;
-    font-size: 30px;
+    /* padding-bottom: 10px; */
+    font-size: 28px;
 }
 .even .txt .txt_t h5 {
-    font-size: 20px;
+    font-size: 18px;
 }
 .even .txt .txt_c {
-    padding-top: 50px;
+    padding-top: 40px;
     line-height: 35px;
-    font-size: 20px;
+    font-size: 18px;
 }
 .even .txt .txt_c {
     display: flex;
@@ -264,7 +263,7 @@ li {list-style: none;}
     padding-left: 30px;
 }
 .even .txt .txt_btn {
-    padding-top: 70px;
+    padding-top: 40px;
     display: flex;
 }
 .even .txt .txt_btn a { 
@@ -293,7 +292,7 @@ li {list-style: none;}
     text-align: center;
     font-style: italic;
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -301,15 +300,21 @@ li {list-style: none;}
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -45%);
 }
-.page8 .atwk_in .box {
+
+.page8 .atwk_in .box_t {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.page8 .atwk_in .box_b {
+    padding-top: 10px;
     display: flex;
     flex-flow: row nowrap;
 }
 .page8 .atwk_in .box_in {
-    width: 300px;
-    height: 300px;
+    width: 180px;
+    height: 180px;
     background-color: #eee;
     margin-right: 10px;
     overflow: hidden;
@@ -317,25 +322,14 @@ li {list-style: none;}
 .page8 .atwk_in .box1:last-child {
     margin-right: 0;
 }
-.page8 .atwk_in .box_in .pic1{
-    width: 100%;
-    height: auto;
-}
-.page8 .atwk_in .box_in .pic1 {
-    transition: all 10s;
-} 
-.page8 .atwk_in .box_in .pic2 {
-    transition: all 15s;
-} 
-.page8 .atwk_in .box_in .pic3 {
-    transition: all 20s;
-} 
 .page8 .atwk_in .box_in .pic img {
-    /* overflow: scroll; */
     width: 100%;
     height: 100%;
 }
-.page8 .atwk_in .box1 .pic:hover {
+
+
+
+/* .page8 .atwk_in .box1 .pic:hover {
     transform: translateY(-61%);
 }
 .page8 .atwk_in .box2 .pic:hover {
@@ -343,15 +337,7 @@ li {list-style: none;}
 }
 .page8 .atwk_in .box3 .pic:hover {
     transform: translateY(-85%);
-}
-
-
-
-
-
-
-
-
+} */
 
 
 .page9 {
@@ -443,4 +429,87 @@ li {list-style: none;}
     bottom: 15%;
     left: 50%;
     transform: translateX(-50%);
+}
+
+@media all and (min-width: 1920px) {
+
+.page1 .bottom {
+    font-size: 120px;
+}
+
+.page2 .about_l {
+    left: 30%;
+    transform: translateY(15%);
+}
+.page2 .imoji {
+    margin-left: 30px;
+}
+.page2 p {
+    line-height: 30px;
+}
+.page2 .r_b .txt li {
+    line-height: 30px;
+}
+.r_b .pgrs_bar {
+    height: 16px;
+    margin: 11px auto;
+    margin-left: 20px;
+
+}
+
+
+.odd .mook_up {
+    left: 20%;
+}
+.odd .txt {
+    transform: translateY(-59%);
+    right: 23%;
+}
+.odd .txt .txt_t h3 {
+    padding-bottom: 30px;
+    font-size: 26px;
+}
+.odd .txt .txt_t h1 {
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.odd .txt .txt_t h5 {
+    font-size: 20px;
+}
+.odd .txt .txt_c {
+    padding-top: 50px;
+    font-size: 20px;
+}
+.odd .txt .txt_btn {
+    padding-top: 70px;
+}
+.even .mook_up {
+    right: 20%;
+}
+.even .txt {
+    left: 23%;
+}
+.even .txt .txt_t h3 {
+    padding-bottom: 30px;
+    font-size: 26px;
+}
+.even .txt .txt_t h1 {
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.even .txt .txt_t h5 {
+    font-size: 20px;
+}
+.even .txt .txt_c {
+    padding-top: 50px;
+    font-size: 20px;
+}
+.even .txt .txt_btn {
+    padding-top: 70px;
+}
+.page8 .atwk_in .box_in {
+    width: 300px;
+    height: 300px;
+}
+
 }
