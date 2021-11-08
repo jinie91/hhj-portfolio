@@ -351,28 +351,28 @@ li {list-style: none;}
     text-align: center;
     font-style: italic;
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 50%;
     transform: translateX(-50%);
 }
 .page9 .card_in .card_pic {
     position: absolute;
-    bottom: 38%;
+    bottom: 40%;
     left: 50%;
     transform: translateX(-50%);
-    width: 450px;
-    height: 260px;
+    width: 400px;
+    height: 230px;
     background-color: #fff;
     border-radius: 10px;
     box-sizing: 10px 10px 10px rgba(0,0,0,0.5);
     /* font-family: 'Gowun Batang', serif; */
-    font-family: "/NanumMyeongjo";
+    /* font-family: "/NanumMyeongjo"; */
 }
 .page9 .card_in .pic {
     width: 150px;
     position: absolute;
     top: 20%;
-    left: 5%;
+    left: 3%;
 }
 .page9 .card_in .pic img {
     width: 100%;
@@ -382,7 +382,7 @@ li {list-style: none;}
     top: 0;
     right: 0;
     padding: 20px 25px 0 0;
-    line-height: 20px;
+    line-height: 18px;
     font-weight: bold;
 }
 .page9 .card_in .txt_t p {
@@ -392,14 +392,14 @@ li {list-style: none;}
 .page9 .card_in .txt_b {
     position: absolute;
     top: 40%;
-    left: 45%;
+    left: 43%;
 }
 .page9 .card_in .txt_b>p {
     padding-bottom: 20px;
 }
 .page9 .card_in .txt_b .name {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
 }
 .page9 .card_in .txt_bin {
     display: flex;
@@ -511,5 +511,24 @@ li {list-style: none;}
     width: 300px;
     height: 300px;
 }
-
+.page9 .card_in h2 {
+    top: 20%;
+}
+.page9 .card_in .card_pic {
+    bottom: 38%;
+    width: 450px;
+    height: 260px;
+}
+.page9 .card_in .pic {
+    left: 5%;
+}
+.page9 .card_in .txt_t {
+    line-height: 20px;
+}
+.page9 .card_in .txt_b {
+    left: 45%;
+}
+.page9 .card_in .txt_b .name {
+    font-size: 20px;
+}
 }
