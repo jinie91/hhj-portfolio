@@ -369,10 +369,10 @@ li {list-style: none;}
     /* font-family: "/NanumMyeongjo"; */
 }
 .page9 .card_in .pic {
-    width: 150px;
+    width: 120px;
     position: absolute;
-    top: 20%;
-    left: 3%;
+    top: 15%;
+    left: 5%;
 }
 .page9 .card_in .pic img {
     width: 100%;
