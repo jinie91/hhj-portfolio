@@ -411,7 +411,7 @@ li {list-style: none;}
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-43%, -50%);
+    transform: translate(-44%, -50%);
 }
 .profile .box1 {
     transform: translateY(-50.5%);
