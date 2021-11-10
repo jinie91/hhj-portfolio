@@ -33,87 +33,78 @@ li {list-style: none;}
     font-weight: bold;
 }
 
-.page2 {
+
+.profile {
     position: relative;
-    width: 100%;
-}
-.page2_in {
-    position: absolute;
-    top: 20%;
-}
-.page2>div {
-    display: flex;
-    width: 100%;
-}
-.page2 .imoji {
-    width: 200px;
-    margin-left: 3px;
-}
-.page2 .imoji img {
-    width: 100%;
-}
-.page2 .about_l {
-    width: 50%;
-    position: absolute;
-    left: 23%;
-    transform: translateY(-3%);
-}
-.page2 .about_r {
-    width: 50%;
-    position: absolute;
-    right: 0%;
-    transform: translateY(-5%);
-}
-.txt p:last-child {
-    padding-bottom: 20px;
+    background: url(../img/bg_2.jpg) no-repeat 100% 100%/ cover;
 }
 
-.page2 .txt_l {
+.profile .pro_in .pro_img {
+    position: relative;
+    padding: 0 0 40px 50px;
+    width: 130px;
+}
+.profile .pro_in .pro_img img {
+    width: 100%;
+}
+.profile .box_out {
     display: flex;
-    padding-top: 50px;
 }
-.page2 .txt_l .tit {
-    font-weight: bold;
+.profile .box_flex {
+    display: flex;
 }
-.page2 .txt_l .txt {
+
+.profile .box_edu>div {
+    display: flex;
+}
+.profile .txt{
     padding-left: 20px;
 }
-.page2 .r_tin {
-    display: flex;
+.profile .box2 .box_flex>div {
+    padding-left: 30px;
 }
-.page2 .r_cin {
-    display: flex;
+.profile .box1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
 }
-.page2 .r_bin {
-    display: flex;
+.profile .box2 {
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -50%);
 }
-
-.page2 h2 {
+.box_edu .txt p:last-child { 
+    padding-bottom: 0;
+}
+.skill_tit {
+    padding-top: 72px;
+}
+.profile .box2 h2 {
+    padding-bottom: 30px;
+}
+.profile .box p {
     padding-bottom: 5px;
-    font-size: 16px;
 }
-.page2 .txt {
-    padding-left: 20px;
-    font-size: 14px;
+.pro_in {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-.page2 p {
-    line-height: 22px;
-}
-.page2 .r_b .txt li {
-    line-height: 20px;
-}
-
 
 .r_b {
     position: relative;
 }
-.r_b .pgrs_bar {
+.pgrs_bar {
     position: relative;
     width: 230px;
-    height: 10px;
+    height: 15px;
     margin: 10px auto;
     margin-left: 20px;
-    top: -4px;
+    top: -10px;
     border: 1px solid crimson;
     border-radius: 10px;
     overflow: hidden;
@@ -125,7 +116,7 @@ li {list-style: none;}
     top: 0;
     left: 0;
     bottom: 0;
-    height: 20px;
+    height: 15px;
   }
 .rate {
     position: absolute;
@@ -136,7 +127,6 @@ li {list-style: none;}
     color:  crimson;
     line-height: 30px;
 }
-
 .odd {
     position: relative;
     width: 100%;
@@ -144,7 +134,6 @@ li {list-style: none;}
 .odd .pf_in {
     width: calc(100% - 100px);
     margin: 0 auto;
-
 }
 .odd .mook_up {
     position: absolute;
@@ -153,7 +142,6 @@ li {list-style: none;}
     transform: translateY(-45%);
     width: 38%;
     left: 15%;
-
 }
 .odd .mook_up img {
     width: 100%;
@@ -170,7 +158,6 @@ li {list-style: none;}
     font-style: italic;
 }
 .odd .txt .txt_t h1 {
-    /* padding-bottom: 10px; */
     font-size: 28px;
 }
 .odd .txt .txt_t h5 {
@@ -327,19 +314,6 @@ li {list-style: none;}
     height: 100%;
 }
 
-
-
-/* .page8 .atwk_in .box1 .pic:hover {
-    transform: translateY(-61%);
-}
-.page8 .atwk_in .box2 .pic:hover {
-    transform: translateY(-83%);
-}
-.page8 .atwk_in .box3 .pic:hover {
-    transform: translateY(-85%);
-} */
-
-
 .page9 {
     position: relative;
 }
@@ -365,8 +339,6 @@ li {list-style: none;}
     background-color: #fff;
     border-radius: 10px;
     box-sizing: 10px 10px 10px rgba(0,0,0,0.5);
-    /* font-family: 'Gowun Batang', serif; */
-    /* font-family: "/NanumMyeongjo"; */
 }
 .page9 .card_in .pic {
     width: 120px;
@@ -432,11 +404,22 @@ li {list-style: none;}
 }
 
 @media all and (min-width: 1920px) {
-
+.profile {
+    position: relative;
+}
+.pro_in {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-43%, -50%);
+}
+.profile .box1 {
+    transform: translateY(-50.5%);
+    left: 17%;    
+}    
 .page1 .bottom {
     font-size: 120px;
 }
-
 .page2 .about_l {
     left: 30%;
     transform: translateY(15%);
