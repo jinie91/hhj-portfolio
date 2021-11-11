@@ -2,7 +2,7 @@
 a {color: inherit; text-decoration: none;}
 ul li {list-style: none;}
 li {list-style: none;}
-
+body{overflow-x:hidden;}
 #wrap section {
     width: 100%;
     height: 100vh;
